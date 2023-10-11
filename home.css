@@ -1,0 +1,75 @@
+
+.home{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0px;
+}
+.home header{
+    border: 2px none white;
+    padding: 5px;
+}
+.home nav{
+    
+    line-height: 70px;
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+    background-color: #177829;
+}
+.home> nav> a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.home> nav> a:hover{
+    color: #e8202e;
+    min-height: 400px;
+}
+.panel{
+    
+    color: #47a2d6;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 25px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px;
+    
+}
+.table1{
+    padding-left: 15px;
+    border: 2px solid red;
+    width: 500px;
+    height: 400px;
+}
+.table1>a{
+    
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    color: #0e0e0e;
+    margin: 3px;
+}
+.table1>a:hover{
+    min-height: 400px;
+    color: green;
+}
+.tb{
+    
+    width: 400px;
+    display: inline-block;
+    float: right;
+    color: #47a2d6;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+}
+.table2{
+    height: 200px;
+    float: right;
+    border: 1px solid blue;
+}
